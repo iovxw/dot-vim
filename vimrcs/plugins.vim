@@ -2,7 +2,7 @@
 " => Plugins
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-call plug#begin('~/.vim-go-runtime/plugged')
+call plug#begin('~/.vim/plugged')
 
 " Mandatory
 Plug 'Valloric/YouCompleteMe', { 'do': './install.sh' }
@@ -26,7 +26,7 @@ Plug 'ap/vim-buftabline'            " Buffer bar
 
 " Nice to have
 Plug 'itchyny/lightline.vim'        " Statusline
-Plug 'flazz/vim-colorschemes', { 'do': 'ln -s ~/.vim-go-runtime/plugged/vim-colorschemes/colors ~/.vim/colors' }
+Plug 'flazz/vim-colorschemes', { 'do': 'ln -s ~/.dot-vim/plugged/vim-colorschemes/colors ~/.vim/colors' }
 Plug 'mhinz/vim-sayonara'           " Kill buffer without closing window
 
 call plug#end()

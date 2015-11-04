@@ -1,7 +1,7 @@
 # vim-go-runtime
 Fast and extendable vim-based go development environment. Inspired by farazdagi's vim-go-ide and powering fatih's vim-go plugin.
 
-<img src="https://raw.githubusercontent.com/codepushr/vim-go-runtime/master/screenshots/screenshot_01.png" alt="vim-go-runtime" />
+![vim-go-runtime](https://raw.githubusercontent.com/codepushr/vim-go-runtime/master/screenshots/screenshot_01.png")
 
 ## Install
 
@@ -27,8 +27,8 @@ Fast and extendable vim-based go development environment. Inspired by farazdagi'
 2. Clone this repository to your home folder and run the install script (this takes some time):
 
   ```
-  $ git clone --recursive git@github.com:codepushr/vim-go-runtime.git ~/.vim-go-runtime
-  $ sh ~/.vim-go-runtime/install.sh
+  $ git clone --recursive git@github.com:Bluek404/dot-vim.git ~/.dot-vim
+  $ sh ~/.dot-vim/install.sh
   ```
   
 4. Install Go binaries (inside Vim):
@@ -39,14 +39,6 @@ Fast and extendable vim-based go development environment. Inspired by farazdagi'
   
 ## Troubleshooting
 
-##### After cloning the repository I'm getting the following git error
-
-  ```
-  No submodule mapping found in .gitmodules for path 'sources_non_forked/gruvbox'
-  Failed to recurse into submodule path 'submodules/amix-vimrc'
-  ```
-  Simply ignore this. This is a gruvbox submodule error in amix' repository (from which we use the base vimrc config). This setup even includes gruvbox with the vim-colorschemes plugin.
-  
 ##### I'm getting a YouCompleteMe error after running the install script
 
   ```
@@ -59,7 +51,7 @@ Fast and extendable vim-based go development environment. Inspired by farazdagi'
   
 There are several vimrcs that play together in this configuration.
 
-1. The base <a href="https://github.com/amix/vimrc" target="_blank">vimrc by amix</a> located in `submodules/amix-vimrc/vimrcs/basic.vim`
+1. The base [vimrc by amix](https://github.com/amix/vimrc) located in `vimrcs/basic.vim`
 2. The extended vimrc for custom configs located in `vimrc/extended.vim`
 3. The plugins vimrc with the list of plugins an their configs located in `vimrcs/plugins.vim`
 4. The shortcut config for mvim (gui_running) located in `gvimrcs/shortcuts.vim`
