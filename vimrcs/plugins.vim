@@ -10,6 +10,14 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'xolox/vim-misc'               " Dependency for session
 Plug 'xolox/vim-session'            " Session management
 
+" Git
+Plug 'airblade/vim-gitgutter'
+
+" Clojure
+Plug 'tpope/vim-fireplace'
+Plug 'guns/vim-clojure-static'
+Plug 'guns/vim-clojure-highlight'
+
 " Golang
 Plug 'fatih/vim-go', {'for': 'go'}  " THE go plugin
 Plug 'garyburd/go-explorer'         " For GoDoc
@@ -26,7 +34,7 @@ Plug 'ap/vim-buftabline'            " Buffer bar
 
 " Nice to have
 Plug 'itchyny/lightline.vim'        " Statusline
-Plug 'flazz/vim-colorschemes', { 'do': 'ln -s ~/.dot-vim/plugged/vim-colorschemes/colors ~/.vim/colors' }
+Plug 'w0ng/vim-hybrid', { 'do': 'ln -s ~/.vim/plugged/vim-hybrid/colors ~/.vim/colors' }
 Plug 'mhinz/vim-sayonara'           " Kill buffer without closing window
 
 call plug#end()

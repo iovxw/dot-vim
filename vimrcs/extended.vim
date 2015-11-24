@@ -2,15 +2,15 @@
 " => GUI related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Set font according to system
-if has("mac") || has("macunix")
-    set gfn=Source\ Code\ Pro:h12,Menlo:h11
-elseif has("win16") || has("win32")
-    set gfn=Source\ Code\ Pro:h12,Bitstream\ Vera\ Sans\ Mono:h11
-elseif has("linux")
-    set gfn=Source\ Code\ Pro:h12,Bitstream\ Vera\ Sans\ Mono:h11
-elseif has("unix")
-    set gfn=Monospace\ 11
-endif
+"if has("mac") || has("macunix")
+"    set gfn=Source\ Code\ Pro:h12,Menlo:h11
+"elseif has("win16") || has("win32")
+"    set gfn=Source\ Code\ Pro:h12,Bitstream\ Vera\ Sans\ Mono:h11
+"elseif has("linux")
+    set gfn=Ubuntu\ Mono\ 12
+"elseif has("unix")
+"    set gfn=Monospace\ 11
+"endif
 
 " Disable scrollbars (real hackers don't use scrollbars for navigation!)
 set guioptions-=r
@@ -22,10 +22,8 @@ set guioptions-=T
 " Colorscheme
 if has("gui_running")
     set background=dark
-    colorscheme gruvbox
-else
-    colorscheme iceberg
-endif
+    colorscheme hybrid
+end
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Coding related
@@ -49,6 +47,7 @@ set clipboard^=unnamedplus
 
 noremap <C-Tab> :bnext<CR>
 noremap <C-S-Tab> :bprevious<CR>
+noremap <C-c> :Bclose<CR>
 
 set switchbuf=useopen,usetab
 
