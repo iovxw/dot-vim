@@ -30,10 +30,9 @@ Plug 'scrooloose/nerdtree'            " File tree
 Plug 'Raimondi/delimitMate'           " Auto-close brackets
 Plug 'rking/ag.vim'                   " For silver surfing
 Plug 'majutsushi/tagbar'              " Tagbar
-Plug 'ap/vim-buftabline'              " Buffer bar
 
 " Nice to have
-Plug 'itchyny/lightline.vim'          " Statusline
+Plug 'bling/vim-airline'
 Plug 'morhetz/gruvbox'                " Color scheme
 Plug 'ntpeters/vim-better-whitespace' " Whitespace highlight
 
@@ -151,10 +150,19 @@ let g:session_autoload = 'yes'
 "
 " DelimitMate
 "
-let g:delimitMate_expand_cr = 1     
-let g:delimitMate_expand_space = 1      
-let g:delimitMate_smart_quotes = 1      
+let g:delimitMate_expand_cr = 1
+let g:delimitMate_expand_space = 1
+let g:delimitMate_smart_quotes = 1
 let g:delimitMate_expand_inside_quotes = 0
+
+"
+" Airline
+"
+let g:airline_left_sep = ''
+let g:airline_right_sep = ''
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ''
+let g:airline#extensions#tabline#right_sep = ''
 
 "
 " Tagbar

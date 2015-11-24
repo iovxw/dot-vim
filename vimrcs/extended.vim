@@ -17,7 +17,7 @@ set guioptions-=r
 set guioptions-=R
 set guioptions-=l
 set guioptions-=L
-set guioptions-=T 
+set guioptions-=T
 
 " Colorscheme
 if has("gui_running")
@@ -66,7 +66,7 @@ if has("gui_running")
 endif
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Quickfix 
+" => Quickfix
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 autocmd FileType qf wincmd J
@@ -75,7 +75,7 @@ map <C-n> :cn<CR>
 map <C-p> :cp<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => GoDebug 
+" => GoDebug
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 nmap <C-b> :normal o_ = "breakpoint"<CR>
