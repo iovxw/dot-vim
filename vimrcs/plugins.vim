@@ -34,7 +34,7 @@ Plug 'ap/vim-buftabline'            " Buffer bar
 
 " Nice to have
 Plug 'itchyny/lightline.vim'        " Statusline
-Plug 'w0ng/vim-hybrid', { 'do': 'ln -s ~/.vim/plugged/vim-hybrid/colors ~/.vim/colors' }
+Plug 'morhetz/gruvbox'              " Color scheme
 Plug 'mhinz/vim-sayonara'           " Kill buffer without closing window
 
 call plug#end()

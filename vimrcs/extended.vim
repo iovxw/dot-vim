@@ -22,7 +22,7 @@ set guioptions-=T
 " Colorscheme
 if has("gui_running")
     set background=dark
-    colorscheme hybrid
+    colorscheme gruvbox
 end
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
