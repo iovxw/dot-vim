@@ -49,6 +49,7 @@ noremap <C-Tab> :bnext<CR>
 noremap <C-S-Tab> :bprevious<CR>
 noremap <C-c> :Bclose<CR>
 
+let g:buftabline_indicators=1
 set switchbuf=useopen,usetab
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

@@ -7,8 +7,8 @@ call plug#begin('~/.vim/plugged')
 " Mandatory
 Plug 'Valloric/YouCompleteMe', { 'do': './install.sh' }
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'xolox/vim-misc'               " Dependency for session
-Plug 'xolox/vim-session'            " Session management
+Plug 'xolox/vim-misc'                 " Dependency for session
+Plug 'xolox/vim-session'              " Session management
 
 " Git
 Plug 'airblade/vim-gitgutter'
@@ -19,28 +19,29 @@ Plug 'guns/vim-clojure-static'
 Plug 'guns/vim-clojure-highlight'
 
 " Golang
-Plug 'fatih/vim-go', {'for': 'go'}  " THE go plugin
-Plug 'garyburd/go-explorer'         " For GoDoc
-Plug 'SirVer/ultisnips'             " For awesome go snippets
+Plug 'fatih/vim-go', {'for': 'go'}    " THE go plugin
+Plug 'garyburd/go-explorer'           " For GoDoc
+Plug 'SirVer/ultisnips'               " For awesome go snippets
 
 " Important
-Plug 'tpope/vim-fugitive'           " Git integration
-Plug 'tomtom/tcomment_vim'          " Commenting made easy
-Plug 'scrooloose/nerdtree'          " File tree
-Plug 'Raimondi/delimitMate'         " Auto-close brackets
-Plug 'rking/ag.vim'                 " For silver surfing
-Plug 'majutsushi/tagbar'            " Tagbar
-Plug 'ap/vim-buftabline'            " Buffer bar
+Plug 'tpope/vim-fugitive'             " Git integration
+Plug 'tomtom/tcomment_vim'            " Commenting made easy
+Plug 'scrooloose/nerdtree'            " File tree
+Plug 'Raimondi/delimitMate'           " Auto-close brackets
+Plug 'rking/ag.vim'                   " For silver surfing
+Plug 'majutsushi/tagbar'              " Tagbar
+Plug 'ap/vim-buftabline'              " Buffer bar
 
 " Nice to have
-Plug 'itchyny/lightline.vim'        " Statusline
-Plug 'morhetz/gruvbox'              " Color scheme
+Plug 'itchyny/lightline.vim'          " Statusline
+Plug 'morhetz/gruvbox'                " Color scheme
+Plug 'ntpeters/vim-better-whitespace' " Whitespace highlight
 
 call plug#end()
 
-set nocompatible                    " iMproved, required
-filetype off                        " Required
-filetype plugin indent on           " Required
+set nocompatible                      " iMproved, required
+filetype off                          " Required
+filetype plugin indent on             " Required
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Plugin Configuration
