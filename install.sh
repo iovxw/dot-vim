@@ -20,7 +20,6 @@ vim +PlugInstall +qall
 echo "Setting up extended config ..."
 # Load extended configs
 echo "source ~/.dot-vim/vimrcs/extended.vim" >> ~/.vimrc
-echo "source ~/.dot-vim/gvimrcs/shortcuts.vim" > ~/.gvimrc
 
 echo "Setting up ctags for go ..."
 echo "set tags=~/.dot-vim/ctags/.ctags" >> ~/.vimrc

@@ -190,10 +190,6 @@ Here's a quick list of shortcuts that I configured. You can change them to your 
     <td>Switch to lower pane (mvim)</td>
   </tr>
   <tr>
-    <td><code>[cmd]+[shift]+w</code></td>
-    <td>Close window & buffer (mvim)</td>
-  </tr>
-  <tr>
     <td><code>[leader]+n</code></td>
     <td>Toggle nerdtree navigator</td>
   </tr>
