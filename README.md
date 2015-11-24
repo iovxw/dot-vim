@@ -124,12 +124,24 @@ There are several vimrcs that play together in this configuration.
     <td>This plugin shows a nice status bar and is very configurable.</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/flazz/vim-colorschemes" target="_blank">flazz/vim-colorschemes</a></td>
-    <td>Gives you tons of color schemes for vim.</td>
+    <td><a href="https://github.com/morhetz/gruvbox" target="_blank">morhetz/gruvbox</a></td>
+    <td>Color scheme</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/mhinz/vim-sayonara" target="_blank">mhinz/vim-sayonara</a></td>
-    <td>This plugin helps you to close buffers or whole windows.</td>
+    <td><a href="https://github.com/airblade/vim-gitgutter" target="_blank">airblade/vim-gitgutter</a></td>
+    <td>shows a git diff in the gutter (sign column) and stages/reverts hunks.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/tpope/vim-fireplace" target="_blank">tpope/vim-fireplace</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/guns/vim-clojure-static" target="_blank">guns/vim-clojure-static</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/guns/vim-clojure-highlight" target="_blank">guns/vim-clojure-highlight</a></td>
+    <td></td>
   </tr>
 </table>
 
@@ -158,6 +170,10 @@ Here's a quick list of shortcuts that I configured. You can change them to your 
     <td>Switch to previous buffer</td>
   </tr>
   <tr>
+    <td><code>[ctrl]+c</code></td>
+    <td>Close buffer</td>
+  </tr>
+  <tr>
     <td><code>[cmd]+[alt]+Left</code></td>
     <td>Switch to left pane (mvim)</td>
   </tr>
@@ -172,10 +188,6 @@ Here's a quick list of shortcuts that I configured. You can change them to your 
   <tr>
     <td><code>[cmd]+[alt]+Down</code></td>
     <td>Switch to lower pane (mvim)</td>
-  </tr>
-  <tr>
-    <td><code>[cmd]+w</code></td>
-    <td>Close buffer (mvim)</td>
   </tr>
   <tr>
     <td><code>[cmd]+[shift]+w</code></td>
