@@ -120,8 +120,8 @@ There are several vimrcs that play together in this configuration.
     <td>Displays a bar on the top showing all your open buffers.</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/itchyny/lightline.vim" target="_blank">itchyny/lightline</a></td>
-    <td>This plugin shows a nice status bar and is very configurable.</td>
+    <td><a href="https://github.com/bling/vim-airline" target="_blank">bling/vim-airline</a></td>
+    <td>底部状态栏及顶部TAB栏</td>
   </tr>
   <tr>
     <td><a href="https://github.com/morhetz/gruvbox" target="_blank">morhetz/gruvbox</a></td>
@@ -133,15 +133,19 @@ There are several vimrcs that play together in this configuration.
   </tr>
   <tr>
     <td><a href="https://github.com/tpope/vim-fireplace" target="_blank">tpope/vim-fireplace</a></td>
-    <td></td>
+    <td>Clojure 插件依赖</td>
   </tr>
   <tr>
     <td><a href="https://github.com/guns/vim-clojure-static" target="_blank">guns/vim-clojure-static</a></td>
-    <td></td>
+    <td>Clojure 支持</td>
   </tr>
   <tr>
     <td><a href="https://github.com/guns/vim-clojure-highlight" target="_blank">guns/vim-clojure-highlight</a></td>
-    <td></td>
+    <td>Clojure 语法高亮</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/ntpeters/vim-better-whitespace" target="_blank">ntpeters/vim-better-whitespace</a></td>
+    <td>高亮无用空白符</td>
   </tr>
 </table>
 
